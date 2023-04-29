@@ -57,6 +57,7 @@ body{
     display: block;
     max-width: 100%;
     position: relative;
+    height: auto;
     
     
 }
@@ -122,6 +123,10 @@ body{
 }
 .nft_creator p span{
     color: white;
+}
+.nft_creator p span:hover{
+    color:hsl(178, 100%, 50%, 0.5);
+    cursor: pointer;
 }
 .creator_image{
     border: 1px solid white;
